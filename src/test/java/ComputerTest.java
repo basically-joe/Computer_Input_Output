@@ -72,6 +72,14 @@ public class ComputerTest {
     }
 
     @Test
+    public void canInputDataViaMouse(){
+        Mouse mouse = new Mouse("Wireless", 3);
+        Speaker speaker = new Speaker(100);
+        Computer computer = new Computer(8, 512, speaker, mouse);
+        assertEquals("Clicking mouse button clickity clack", computer.inputData(" clickity clack"));
+    }
+
+    @Test
     public void canSendDataToOutputDevice(){
         assertEquals("ABC is now on screen", computer.outputDataStream("ABC"));
     }
