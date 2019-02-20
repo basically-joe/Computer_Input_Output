@@ -6,8 +6,8 @@ public class Keyboard implements IINput {
 
 
 	@Override
-	public String sendData() {
+	public String sendData(String data) {
 		return null;
 	}
-	
+
 }

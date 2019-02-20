@@ -2,5 +2,5 @@ package behaviours;
 
 public interface IINput {
 
-	String sendData();
+	String sendData(String data);
 }
