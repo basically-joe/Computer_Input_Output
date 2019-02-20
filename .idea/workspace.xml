@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f93ab23-0d1b-4a27-a444-ca31c16679c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ComputerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,6 +26,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/PrintingDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -57,11 +66,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,8 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/java/behaviours/IOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Monitor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/VideoDevice.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/SoundDevice.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Speaker.java" />
@@ -125,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
       </list>
     </option>
   </component>
@@ -203,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550673276028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550673889495" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -222,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in CompositionStartPoint_test">
+  <component name="RunManager" selected="JUnit.ComputerTest.canInputData">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -254,6 +281,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComputerTest.canInputData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompositionStartPoint_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerTest" />
+      <option name="METHOD_NAME" value="canInputData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompositionStartPoint_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -268,16 +306,6 @@
       <module name="CompositionStartPoint_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompositionStartPoint_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelevisionTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -310,18 +338,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in CompositionStartPoint_test" />
-      <item itemvalue="JUnit.TelevisionTest" />
       <item itemvalue="JUnit.MonitorTest" />
       <item itemvalue="JUnit.RadioTest" />
       <item itemvalue="JUnit.ComputerTest" />
+      <item itemvalue="JUnit.ComputerTest.canInputData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerTest.canInputData" />
         <item itemvalue="JUnit.All in CompositionStartPoint_test" />
         <item itemvalue="JUnit.ComputerTest" />
         <item itemvalue="JUnit.RadioTest" />
         <item itemvalue="JUnit.MonitorTest" />
-        <item itemvalue="JUnit.TelevisionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -339,9 +367,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CompositionStartPoint_test - 2017.11.21 at 14h 56m 22s.xml">
-      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CompositionStartPoint_test - 2017.11.21 at 15h 05m 34s.xml">
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
@@ -367,6 +392,9 @@
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_CompositionStartPoint_test - 2019.02.20 at 14h 28m 58s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2019.02.20 at 14h 34m 39s.xml">
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -461,24 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/TypeWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/PrintingDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -503,27 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -545,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IINput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -559,10 +545,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Mouse.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="420">
+          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IINput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/PrintingDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -573,10 +594,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        <state relative-caret-position="228">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
         </state>
       </provider>
     </entry>
