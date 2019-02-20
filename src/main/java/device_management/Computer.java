@@ -44,6 +44,8 @@ public class Computer {
         return this.inputDevice.sendData(data);
     }
 
-
+    public String outputDataStream(String data){
+        return this.outputData(data);
+    }
 
 }

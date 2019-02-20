@@ -71,4 +71,9 @@ public class ComputerTest {
         assertEquals("Buttons pressed ABC", computer.inputData(" ABC"));
     }
 
+    @Test
+    public void canSendDataToOutputDevice(){
+        assertEquals("ABC is now on screen", computer.outputDataStream("ABC"));
+    }
+
 }
